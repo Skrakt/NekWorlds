@@ -1,0 +1,136 @@
+@font-face {
+
+  font-family: "Montserrat" ;
+  src: url("/polices/montserrat.woff") format("woff");
+  src: url("/polices/montserrat.woff2") format("woff2");
+}
+
+/** Partie Haute**/
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 60px;
+}
+
+.Nek {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  padding: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.games-finder {
+  width: 100%;
+}
+
+.gf-btn {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  color: white;
+  background-color: #990000;
+  border: solid 1px black;
+  width: 100%;
+}
+
+.gf-btn:hover {
+  transition: 300ms;
+  background-color: #6d0000;
+  padding: 5px;
+}
+
+.enterTheNek {
+  display: flex;
+  background-color: #351c75;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  font-size:xx-large;
+  border-bottom: solid 1px black;
+}
+
+.etn-btn {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  background-color: #351c75;
+  border: none;
+}
+
+.void {
+  background-color: darkgreen;
+}
+
+.game {
+  width: 60%;
+  margin:auto;
+  background-color: #181818;
+}
+
+.col{
+  padding-top: 20px;
+}
+
+.compte {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  height: 80px;
+}
+
+.navbar-toggler{
+  position: relative;
+  margin-bottom: 13px;
+  height: 50px;
+  width: 50px;
+  border: none;
+}
+
+.navbar > .container-fluid {
+  background-color: #181818;
+  height: 100%;
+}
+
+.navbar-brand {
+  color: white;
+  justify-content: center;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.nav-link,
+.nav-link:hover,
+.nav-link:visited
+{
+  color: white;
+}
+
+.navblank {
+  height: 100%;
+  width: 50px;
+}
+
+.footer {
+  background-color: #181818;
+  width: 100%;
+  height: 1000px;
+}
+
+.contact{
+  justify-items: end;
+  text-align: end;
+}
+
+section > article > a {
+text-decoration: none;
+}
+
+.fixed-top {
+  padding-top: 190px;
+  width: 20%;
+}

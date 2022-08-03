@@ -1,0 +1,111 @@
+.your {
+  background-color: #990000;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  height: 100px;
+  padding-top: 25px;
+  margin-bottom: 0;
+  border: solid black 2px;
+}
+
+.tag {
+  border-radius: 20px 20px 20px 20px ;
+  background-color:  #990000;
+  color: white;
+  justify-content: start;
+  margin: 3px;
+}
+
+.tags {
+  width: 20%;
+  float: left;
+}
+
+.games {
+  width: 50%;
+  margin:auto;
+  background-color: #181818;
+  color: white;
+  height: 1000px;
+}
+
+.game {
+  width: 60%;
+  margin:auto;
+  background-color: #181818;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 60px;
+}
+
+.Nek {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  padding: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.void {
+  background-color: darkgreen;
+}
+
+.compte {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  height: 80px;
+}
+
+.navbar-toggler{
+  position: relative;
+  margin-bottom: 13px;
+  height: 50px;
+  width: 50px;
+  border: none;
+}
+
+.navbar > .container-fluid {
+  background-color: #181818;
+  height: 100%;
+}
+
+.navbar-brand {
+  color: white;
+  justify-content: center;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.nav-link,
+.nav-link:hover,
+.nav-link:visited
+{
+  color: white;
+}
+
+.navblank {
+  height: 100%;
+  width: 50px;
+}
+
+.footer {
+  background-color: #181818;
+  width: 100%;
+  height: 1000px;
+}
+
+.contact{
+  justify-items: end;
+  text-align: end;
+}
