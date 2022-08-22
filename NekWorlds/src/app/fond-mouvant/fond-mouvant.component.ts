@@ -10,12 +10,9 @@ import { AppComponent } from '../app.component';
 export class FondMouvantComponent implements OnInit {
 
   constructor( ) {
-
   }
 
   ngOnInit(): void {
   }
-
-
 
 }
