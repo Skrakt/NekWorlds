@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { AccueilComponent } from '../accueil/accueil.component';
+import { AppComponent } from '../app.component';
 
 @Component({
   selector: 'app-fond-mouvant',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FondMouvantComponent implements OnInit {
 
-  constructor() { }
+  constructor( ) {
+
+  }
 
   ngOnInit(): void {
   }
+
+
 
 }

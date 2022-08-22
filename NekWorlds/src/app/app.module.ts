@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { GamesFinderComponent } from './games-finder/games-finder.component';
 import { FondMouvantComponent } from './fond-mouvant/fond-mouvant.component';
+import { GlobalComponentComponent } from './global-component/global-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AccueilComponent,
     GamesFinderComponent,
-    FondMouvantComponent
+    FondMouvantComponent,
+    GlobalComponentComponent
   ],
   imports: [
     BrowserModule,

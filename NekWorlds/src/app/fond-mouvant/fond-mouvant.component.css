@@ -1,15 +1,14 @@
-.ctn-background {
-  position: absolute;
+.ctn-background{
+  position: relative;
   top: 0;
 	background: linear-gradient(-45deg, #351c75, #181818 50%, Firebrick);
 	background-size: 600% 600%;
+  background-repeat: space;
 	animation: gradient 15s ease infinite;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   z-index: -1;
 }
-
-
 
 @keyframes gradient {
 	0% {

@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'NekWorlds';
+  static elHeight: number;
 }
+
+  // var el = document.querySelector('body');
+
+  // var elHeight = 0;
+  // elHeight += parseInt(window.getComputedStyle(el).getPropertyValue('height'));
