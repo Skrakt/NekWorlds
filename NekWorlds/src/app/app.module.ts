@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { GamesFinderComponent } from './games-finder/games-finder.component';
+import { FondMouvantComponent } from './fond-mouvant/fond-mouvant.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AccueilComponent,
-    GamesFinderComponent
+    GamesFinderComponent,
+    FondMouvantComponent
   ],
   imports: [
     BrowserModule,
